@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1797004418798666}
+  m_IsPrefabParent: 1
+--- !u!1 &1797004418798666
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4873096364528898}
+  - component: {fileID: 114924535910969968}
+  m_Layer: 0
+  m_Name: Enemy Spawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4873096364528898
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1797004418798666}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 4, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114924535910969968
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1797004418798666}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf9ed1ed78a37584a94d0577ed5073fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemies:
+  - {fileID: 1943590574888012, guid: 70b3e82f9417f6145957e88606b5ac63, type: 2}
+  - {fileID: 1323068552227408, guid: 0fc1a320b4466ef4eace1851cc7ce29a, type: 2}
+  - {fileID: 1014995663108496, guid: 9270e36309061054c863c2109f4fd03e, type: 2}
+  - {fileID: 1684072201442186, guid: 90cc4bca479044e4dab0beee52a093de, type: 2}
+  times: 0
+  instances: {fileID: 1949899635661938, guid: c38e6ee0988b3c3469017d4513084792, type: 2}
+  instances2: {fileID: 1149496710949360, guid: 41e96070499c67847ac486d4255f49c7, type: 2}
+  instances3: {fileID: 1824171184103192, guid: e21991e20464f4948b018f086a01512f, type: 2}
+  instances4: {fileID: 1812683466247524, guid: d07cff8f25a60464eacbc3c8ad5a36e0, type: 2}
+  instances5: {fileID: 1572670446714324, guid: 63db202f984be4d4a9dc84e36c619140, type: 2}
+  instances6: {fileID: 1979395076781788, guid: 6d031b36ef2d42a45adbc42be8984f79, type: 2}
+  Avez: 0
+  Bvez: 0
+  Cvez: 0
+  Dvez: 0
+  Evez: 0
+  Fvez: 0
+  startingTime: 5
+  delay: 5
+  startingTime2: 13
+  delay2: 13
+  startingTime3: 18
+  delay3: 18
+  startingTime4: 25
+  delay4: 25
+  startingTime5: 32
+  delay5: 32
+  startingTime6: 40
+  delay6: 40
